@@ -12,7 +12,7 @@
       </ul>
       <span class="navbar-text">
        {% if not user.is_authenticated %}
-        <a href="{% url 'login' %}" class="text-decoration-none">Login</a> | <a href="{% url 'register' %}" class="text-decoration-none">Register</a>
+        <a href="{% url 'login' %}" class="text-decoration-none">Sign In</a> | <a href="{% url 'register' %}" class="text-decoration-none">Sign Up</a>
       {% else %}
           <span>{{user.username|upper}} | </span><a href="{% url 'logout' %}" class="text-decoration-none">Logout</a>
           {% endif %}

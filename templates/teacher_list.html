@@ -35,7 +35,7 @@
         </div>
         <div class="col">
           <select class="form-control" name="subject">
-              <option value="">Any</option>
+              <option value="">Select Subject</option>
               {% for subject in subjects %}
               <option value="{{ subject.name }}">{{ subject.name }}</option>
               {% endfor%}
@@ -57,6 +57,7 @@
         </tr>
         </thead>
         <tbody>
+        {% if object_list|length %}
         {% for teacher in object_list %}
             <tr>
                 <th scope="row">{{ forloop.counter }}</th>
@@ -67,6 +68,13 @@
                 </td>
             </tr>
         {% endfor %}
+        {% else %}
+        <tr>
+            <td colspan="5" class="text-center">
+                No Records Found
+            </td>
+        </tr>
+        {% endif %}
         </tbody>
     </table>
 {% endblock content %}
