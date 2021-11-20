@@ -9,6 +9,7 @@ git clone https://github.com/iamgigahex/teacher_directory
 # For Docker
 
 Please install docker if not available 
+
 `https://docs.docker.com/desktop/`
 
 ## build
