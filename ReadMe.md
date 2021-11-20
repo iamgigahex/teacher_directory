@@ -1,9 +1,15 @@
 # Teacher Directory App
 
 Below are the details on how to setup this project.
-#For Docker
 
-###Please install docker if not available 
+### Clone the project
+```
+git clone https://github.com/iamgigahex/teacher_directory
+```
+
+# For Docker
+
+### Please install docker if not available 
 `https://docs.docker.com/desktop/`
 
 ## build
@@ -61,11 +67,6 @@ sudo apt install python3.9
 python ––version
 ```
 
-### Clone the project
-```
-git clone 
-```
-
 ### Create the virtual environment and activate it
 ```
 python3 -m venv venv
@@ -97,4 +98,11 @@ python manage.py createsuperuser
 ### Run the server
 ```
 python manage.py runserver
+```
+
+### For accessing the application
+
+```
+http://localhost:8000/
+http://127.0.0.1:8000/
 ```
