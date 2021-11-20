@@ -6,10 +6,9 @@ Below are the details on how to setup this project.
 ```
 git clone https://github.com/iamgigahex/teacher_directory
 ```
-
 # For Docker
 
-### Please install docker if not available 
+Please install docker if not available 
 `https://docs.docker.com/desktop/`
 
 ## build
