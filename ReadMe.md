@@ -38,7 +38,7 @@ Run `docker-compose stop`
 
 Run `docker container rm $(docker container ls -aq)`
 
-##To make it easier run docker_run.sh 
+## To make it easier run docker_run.sh 
 
 
 Run `./docker_run.sh`
